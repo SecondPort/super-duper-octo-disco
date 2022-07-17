@@ -4,4 +4,7 @@ import { Component } from "@angular/core";
     selector: "app-personas",
     templateUrl: "./personas.component.html"
 })
-export class PersonasComponent{}
+export class PersonasComponent{
+    nombre = "Juan";
+    apellido = "Perez";
+}
