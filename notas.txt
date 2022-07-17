@@ -5,7 +5,7 @@ Internamente esta formado por componentes que se conectan entre si y se pueden r
 #comandos
 npm install -g @angular/cli
 ng new nombre-app   #crea una nueva aplicacion
-cd nombre-app 
+cd nombre-app
 ng serve     #inicia el servidor
 ng build    #crea el archivo dist
 ng serve --open --port=4200 --host=localhost    para abrir el navegador
