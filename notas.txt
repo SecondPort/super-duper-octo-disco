@@ -1,0 +1,18 @@
+Angular construye aplicaciones de tipo SPA (Single Page Application) con una estructura de única página.
+Necesitamos nodejs y npm para instalarlo.
+Internamente esta formado por componentes que se conectan entre si y se pueden reutilizar.
+
+#comandos
+npm install -g @angular/cli
+ng new nombre-app   #crea una nueva aplicacion
+cd nombre-app 
+ng serve     #inicia el servidor
+ng build    #crea el archivo dist
+ng serve --open --port=4200 --host=localhost    para abrir el navegador
+ng build --prod     - para produccion
+ng serve --prod --open  para que se abra en el navegador
+ng build --watch    - para observar cambios en el codigo
+ng build --watch --prod #para que se actualice automaticamente
+
+concepto de routing
+routing: es una estructura de datos que nos permite navegar entre paginas de la aplicacion.
