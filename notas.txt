@@ -19,3 +19,5 @@ routing: es una estructura de datos que nos permite navegar entre paginas de la 
 
 en la carpeta angular.json en la parte de styles se puede agregar una hoja de estilos
 y en la parte de scripts se puede agregar un script que se ejecute al cargar la pagina.
+
+Es una forma de escribir texto dinamico en nuestras plantillas html.
