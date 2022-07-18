@@ -14,6 +14,14 @@ ng serve --prod --open  para que se abra en el navegador
 ng build --watch    - para observar cambios en el codigo
 ng build --watch --prod #para que se actualice automaticamente
 
+#comandos agregar componentes
+ng generate component nombre-componente #crea un componente
+ng generate component nombre-componente --flat #crea un componente en la carpeta componentes
+ng generate component nombre-componente --module=nombre-modulo #crea un componente en el modulo indicado
+
+#comandos para instalar bootstrap
+npm install --save bootstrap
+
 concepto de routing
 routing: es una estructura de datos que nos permite navegar entre paginas de la aplicacion.
 
