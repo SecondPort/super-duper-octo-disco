@@ -1,7 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Listado de peronas</h1>
+            <h1>Listado de peronas</h1><!--
+            [disbled] se trata de un metodo property binding el cual a una propiedad de html se el asocia un valor
+            (click) es un event binding en donde a un evento de html se el asocia una funcion -->
             <button class="btn btn-danger" [disabled]="disable" (click)="agregarPersona()">Agregar Persona</button>
             <p>{{mensaje}}</p>
             <app-persona></app-persona>
