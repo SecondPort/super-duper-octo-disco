@@ -32,3 +32,6 @@ Es una forma de escribir texto dinamico en nuestras plantillas html.
 
 property binding: se le pasa un valor a una propiedad de un elemento html.
 event binding: se le pasa una funcion a un evento de un elemento html.
+
+
+#ngIf es una directiva que nos permite mostrar o ocultar un elemento html dependiendo de una condicion.
