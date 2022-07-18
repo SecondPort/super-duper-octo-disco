@@ -10,8 +10,10 @@
             <label for="">Titulo persona</label><!--
             para capturar la info de un input text
             o cualquier elemento html que de info y querramos capturarla utilizamos la variable $event -->
-            <input type="text" class="form-control" (input)="modificarTitulo($event)">
+            <!-- <input type="text" class="form-control" (input)="modificarTitulo($event)"> -->
+            <input type="text" class="form-control" [(ngModel)]="titulo">
             <p>{{titulo}}</p>
         </div>
+        <div id="divt" (click)="modificardiv($event)">hola {{divt}}</div>
     </div>
 </div>

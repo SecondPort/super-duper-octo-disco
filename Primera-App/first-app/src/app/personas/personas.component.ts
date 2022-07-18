@@ -12,10 +12,14 @@ export class PersonasComponent{
     disable = false;
     mensaje = "No se ha pulsado el botón";
     titulo = "";
+    divt = "";
     agregarPersona = () => this.mensaje = "Se ha agregado una persona";
 
-    modificarTitulo = (event:Event) => {
+/*     modificarTitulo = (event:Event) => {
         //debemos realizar un casteo para que el evento sea compatible con el tipo de dato que es
         this.titulo = (<HTMLInputElement>event.target).value;
+    } */
+    modificardiv = (event:Event) =>{
+        this.divt = (<HTMLDivElement>event.target).innerHTML="<h1>Hola</h1>";
     }
 }
