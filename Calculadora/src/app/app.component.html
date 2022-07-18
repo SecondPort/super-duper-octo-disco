@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1>Caluladora</h1>
+    </div>
+    <div>
+      <label for="" class="form-label">Ingrese un numero</label>
+      <input type="number" class="form-control" (input)="ValorA($event)">
+    </div>
+    <br>
+    <div>
+      <label for="" class="form-label">Ingrese un numero</label>
+      <input type="number" class="form-control" (input)="ValorB($event)">
+    </div>
+    <br>
+    <div (click)="Sumar()">
+      <button class="btn btn-primary">Sumar</button>
+    </div>
+    <div>
+      Resultado: <span>{{resultado}}</span>
+    </div>
+  </div>
+</body>
+
+</html>
