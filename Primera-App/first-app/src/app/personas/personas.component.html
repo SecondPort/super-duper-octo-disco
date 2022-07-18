@@ -7,6 +7,11 @@
             <button class="btn btn-danger" [disabled]="disable" (click)="agregarPersona()">Agregar Persona</button>
             <p>{{mensaje}}</p>
             <app-persona></app-persona>
+            <label for="">Titulo persona</label><!--
+            para capturar la info de un input text
+            o cualquier elemento html que de info y querramos capturarla utilizamos la variable $event -->
+            <input type="text" class="form-control" (input)="modificarTitulo($event)">
+            <p>{{titulo}}</p>
         </div>
     </div>
 </div>

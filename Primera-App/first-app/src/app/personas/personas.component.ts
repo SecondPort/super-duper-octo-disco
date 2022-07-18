@@ -11,5 +11,11 @@ import { Component } from "@angular/core";
 export class PersonasComponent{
     disable = false;
     mensaje = "No se ha pulsado el botón";
+    titulo = "";
     agregarPersona = () => this.mensaje = "Se ha agregado una persona";
+
+    modificarTitulo = (event:Event) => {
+        //debemos realizar un casteo para que el evento sea compatible con el tipo de dato que es
+        this.titulo = (<HTMLInputElement>event.target).value;
+    }
 }
