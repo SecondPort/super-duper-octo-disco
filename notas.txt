@@ -1,7 +1,7 @@
 Angular construye aplicaciones de tipo SPA (Single Page Application) con una estructura de única página.
 Necesitamos nodejs y npm para instalarlo.
 Internamente esta formado por componentes que se conectan entre si y se pueden reutilizar.
-
+test
 #comandos
 npm install -g @angular/cli
 ng new nombre-app   #crea una nueva aplicacion
